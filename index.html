@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Vertical Navigation with expand and collapse</title>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-global navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Welcome!</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-user navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> ampourgh</a></li>
+            <li><a href="#about"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<nav class="navbar-primary">
+  <a href="#" class="btn-expand-collapse"><span class="glyphicon glyphicon-menu-left"></span></a>
+  <ul class="navbar-primary-menu">
+    <li>
+      <a href="#"><span class="glyphicon glyphicon-list-alt"></span><span class="nav-label">Dashboard</span></a>
+      <a href="#"><span class="glyphicon glyphicon-envelope"></span><span class="nav-label">Profile</span></a>
+      <a href="#"><span class="glyphicon glyphicon-calendar"></span><span class="nav-label">Businesses</span></a>
+      <a href="#"><span class="glyphicon glyphicon-cog"></span><span class="nav-label">Locations</span></a>
+      <a href="#"><span class="glyphicon glyphicon-film"></span><span class="nav-label">Postings</span></a>
+      <a href="#"><span class="glyphicon glyphicon-calendar"></span><span class="nav-label">Create Posting</span></a>
+    </li>
+  </ul>
+</nav>
+<div class="main-content">
+
+  <div class="container">
+  <h1>Dashbaord</h1>
+  <p>Welcome to the dashboard. If you are verified and have made postings, you can check your postings based on your business, the location of your business, along wit individual promotions.</p>
+
+  <div id="table" class="table-editable">
+    <span class="table-add glyphicon glyphicon-plus"></span>
+    <table class="table">
+      <tr>
+        <th>Section1</th>
+        <th>Section2</th>
+        <th>Section3</th>
+        <th>Section4</th>
+      </tr>
+      <tr>
+        <td>Row1-col1</td>
+        <td>Row1-col2</td>
+        <td>Row1-col3</td>
+        <td><span class="table-remove glyphicon glyphicon-remove"></span></td>
+      </tr>
+      <tr>
+        <td>Row2-col1</td>
+        <td>Row2-col2</td>
+        <td>Row2-col3</td>
+        <td><span class="table-remove glyphicon glyphicon-remove"></span></td>
+      </tr>
+      <tr>
+        <td>Row3-col1</td>
+        <td>Row3-col2</td>
+        <td>Row3-col3</td>
+        <td><span class="table-remove glyphicon glyphicon-remove"></span></td>
+      </tr>
+      <tr>
+        <td>Row4-col1</td>
+        <td>Row4-col2</td>
+        <td>Row4-col3</td>
+        <td><span class="table-remove glyphicon glyphicon-remove"></span></td>
+      </tr>
+      <tr>
+        <td>Row1-col1</td>
+        <td>Row1-col2</td>
+        <td>Row1-col3</td>
+        <td><span class="table-remove glyphicon glyphicon-remove"></span></td>
+      </tr>
+
+    </table>
+  </div>
+
+
+    <!-- <ul>
+      <li></li>
+    </ul> -->
+
+</div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+    <script  src="js/index.js"></script>
+</body>
+</html>
