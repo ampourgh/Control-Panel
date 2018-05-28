@@ -1,5 +1,5 @@
 .navbar-global {
-  background-color: indigo;
+  background-color: #00B2B2;
 }
 
 .navbar-global .navbar-brand {
@@ -106,7 +106,6 @@ body {
 .table {
  width: 90%;
 }
-
 
 .table-editable .glyphicon {
   font-size: 20px;
