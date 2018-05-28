@@ -1,5 +1,5 @@
 .navbar-global {
-  background-color: #00B2B2;
+  background-color: #009999;
 }
 
 .navbar-global .navbar-brand {
@@ -139,4 +139,8 @@ body {
 
 .table-add:hover {
   color: #0b0;
+}
+
+tr:hover {
+  background-color: #E5FFFF;
 }
