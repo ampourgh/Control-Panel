@@ -16,6 +16,7 @@ body {
 
 .container {
   width: 80%;
+  margin-top: -635px;
 }
 
 *[id]:before {
@@ -29,7 +30,7 @@ body {
   background-color: #333;
   bottom: 0px;
   left: 0px;
-  position: absolute;
+  position: sticky;
   top: 51px;
   width: 200px;
   height: 100%;
@@ -53,22 +54,22 @@ body {
 }
 
 .btn-expand-collapse {
-    position: absolute;
-    display: block;
-    left: 0px;
-    top:0;
-    width: 100%;
-    padding: 8px 0;
-    border-bottom: solid 1px #666;
-    color: grey;
-    font-size: 20px;
-    text-align: center;
+  position: absolute;
+  display: block;
+  left: 0px;
+  top:0;
+  width: 100%;
+  padding: 8px 0;
+  border-bottom: solid 1px #666;
+  color: grey;
+  font-size: 20px;
+  text-align: center;
 }
 
 .btn-expand-collapse:hover,
 .btn-expand-collapse:focus {
-    background-color: #333;
-    color: white;
+  background-color: #333;
+  color: white;
 }
 
 .btn-expand-collapse:active {
